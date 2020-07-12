@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>User Form</title>
+</head>
+<body>
+<form action="login" method="POST">
+    Mail: <input name="mail" />
+    <br><br>
+    Password: <input type="password" name="password" />
+    <br><br>
+    Save session: <input type="checkbox" name="SaveSession" value="true"/>
+    <br><br>
+    <input type="submit" value="Login" />
+    <br><br>
+</form>
+--------------------------------------------------------------------
+<br><br>
+<form action="registration" method="POST">
+    User Name: <input name="userName" />
+    <br><br>
+    Mail: <input name="mail" />
+    <br><br>
+    Password: <input type="password" name="password" />
+    <br><br>
+    <input type="submit" value="Registration" />
+</form>
+
+<!--<js>-->
+<!--    let xhttp = new XMLHttpRequest()-->
+<!--    xhttp.open("GET", "ajax_info.txt", false);-->
+<!--    xhttp.send();-->
+<!--    document.getElementById("demo").innerHTML = xhttp.responseText;-->
+<!--</js>>-->
+</body>
+</html>

@@ -1,0 +1,282 @@
+{
+	"info": {
+		"_postman_id": "10d8e30c-11bb-4d22-b3f1-34f9662be588",
+		"name": "TasksApp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:9221/tasks?taskId=1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9221/tasks?taskId=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9221",
+					"path": [
+						"tasks"
+					],
+					"query": [
+						{
+							"key": "taskId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9221/tasks?taskId=1&text=dsa&description=ffffff&state=ready&targetId=2",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9221/tasks?taskId=1&text=dsa&description=ffffff&state=ready&targetId=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9221",
+					"path": [
+						"tasks"
+					],
+					"query": [
+						{
+							"key": "taskId",
+							"value": "1"
+						},
+						{
+							"key": "text",
+							"value": "dsa"
+						},
+						{
+							"key": "description",
+							"value": "ffffff"
+						},
+						{
+							"key": "deadline",
+							"value": null,
+							"disabled": true
+						},
+						{
+							"key": "state",
+							"value": "ready"
+						},
+						{
+							"key": "targetId",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9221/friends?friendId=1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9221/friends?friendId=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9221",
+					"path": [
+						"friends"
+					],
+					"query": [
+						{
+							"key": "friendId",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9221/friends?friendId=1&taskId=1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9221/friends?friendId=3&taskId=3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9221",
+					"path": [
+						"friends"
+					],
+					"query": [
+						{
+							"key": "friendId",
+							"value": "3"
+						},
+						{
+							"key": "taskId",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9221/targets?targetId=2&description=sadsd",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9221/targets?targetId=3&description=&mainTargetId=5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9221",
+					"path": [
+						"targets"
+					],
+					"query": [
+						{
+							"key": "targetId",
+							"value": "3"
+						},
+						{
+							"key": "description",
+							"value": ""
+						},
+						{
+							"key": "mainTargetId",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9221/targets?targetId=2",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9221/targets?targetId=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9221",
+					"path": [
+						"targets"
+					],
+					"query": [
+						{
+							"key": "targetId",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9221/tasks?taskId=1&description=friend&deadline=2020-07-15&text=mat&state=fa&targetId=0",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9221/tasks?taskId=1&description=friend&deadline=2020-07-15&text=mat&state=fa&targetId=0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9221",
+					"path": [
+						"tasks"
+					],
+					"query": [
+						{
+							"key": "taskId",
+							"value": "1"
+						},
+						{
+							"key": "description",
+							"value": "friend"
+						},
+						{
+							"key": "deadline",
+							"value": "2020-07-15"
+						},
+						{
+							"key": "text",
+							"value": "mat"
+						},
+						{
+							"key": "state",
+							"value": "fa"
+						},
+						{
+							"key": "targetId",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9221/tasks?taskId=4",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9221/tasks?taskId=4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9221",
+					"path": [
+						"tasks"
+					],
+					"query": [
+						{
+							"key": "taskId",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9221/login",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9221/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9221",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
